@@ -1,0 +1,27 @@
+:root{
+    --branco-principal: #000000;
+    --cinza-secundario: #00ff59;
+    --botao-azul: #fbff00;
+    --cor-de-fundo: #1793a9;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
